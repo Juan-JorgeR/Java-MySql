@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.sakila.data.Film" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Film.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="165" x="166" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.sakila.data.iDataRoute" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/iDataRoute.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="221" x="418" y="-212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.sakila.data.Actor" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Actor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="111" x="371" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.sakila.data.City" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/City.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="125" x="522" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.sakila.data.Address" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Address.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="114" x="687" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.sakila.data.Customer" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="127" x="841" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.sakila.data.Store" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Store.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="153" x="1008" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.sakila.data.Country" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Country.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="87" x="1201" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.sakila.data.Rental" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Rental.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="132" x="1328" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.sakila.data.Staff" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Staff.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="127" x="1500" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.sakila.data.Entity" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Entity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="930" y="-212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.sakila.data.Category" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/data/Category.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="111" x="1667" y="-19"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.sakila.models.RentalModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/RentalModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="139" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.sakila.models.CategoryModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/CategoryModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="400" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.sakila.models.EntiryModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/EntiryModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1353" y="671"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.sakila.models.StaffModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/StaffModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="661" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.sakila.models.ActorModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/ActorModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="922" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.sakila.models.CityModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/CityModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1183" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.sakila.models.AddressModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/AddressModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1444" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.sakila.models.CountryModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/CountryModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1705" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.sakila.models.iORMObject" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/iORMObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1314" y="1255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="com.sakila.models.CustomerModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/CustomerModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1966" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.sakila.models.StoreModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/StoreModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2227" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.sakila.models.FilmModel" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/com/sakila/models/FilmModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2488" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="oracletutor.mvc.controller.StoreController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/StoreController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="301" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="oracletutor.mvc.controller.CustomerController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/CustomerController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="562" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="oracletutor.mvc.controller.CategoryController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/CategoryController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="823" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="oracletutor.mvc.controller.FilmController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/FilmController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1084" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="oracletutor.mvc.controller.CountryController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/CountryController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1345" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="oracletutor.mvc.controller.RentalController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/RentalController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1606" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="oracletutor.mvc.controller.CityController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/CityController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1867" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="oracletutor.mvc.controller.Controller" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1480" y="1627"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="oracletutor.mvc.controller.ActorController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/ActorController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2128" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="oracletutor.mvc.controller.StaffController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/StaffController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2389" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="oracletutor.mvc.controller.AddressController" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/controller/AddressController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2650" y="1838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="oracletutor.mvc.view.AddressView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/AddressView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2046" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="oracletutor.mvc.view.CountryView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/CountryView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1880" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="oracletutor.mvc.view.CustomerView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/CustomerView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2212" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="oracletutor.mvc.view.ActorView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/ActorView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1382" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="oracletutor.mvc.view.StoreView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/StoreView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1050" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="oracletutor.mvc.view.RentalView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/RentalView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1714" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="oracletutor.mvc.view.View" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/View.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1430" y="2478"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="oracletutor.mvc.view.FilmView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/FilmView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1548" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="oracletutor.mvc.view.CategoryView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/CategoryView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1216" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="oracletutor.mvc.view.CityView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/CityView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="884" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="oracletutor.mvc.view.MenuControl" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/MenuControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1422" y="2294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="oracletutor.mvc.view.StaffView" project="ProyectoFInal_ProgII" 
+    file="/ProyectoFInal_ProgII/src/oracletutor/mvc/view/StaffView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="718" y="2653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="49">    
+    <bendpoint x="1597" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="50" name="countryView"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <bendpoint x="1099" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="53" name="cityView"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="57">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="58" name="category"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="62">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="63">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="64" name="city"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="68">    
+    <bendpoint x="1763" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="69" name="customerView"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="71">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="72">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="73" name="customer"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <association id="77">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="78" name="film"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="81" name="films"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="83">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="84">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="85" name="store"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="88" name="addresses"/>      
+      <multiplicity id="89" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="90">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="91">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="92" name="staff"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="95">    
+    <bendpoint x="1680" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="96" name="addressView"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="99">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="100" name="paises"/>      
+      <multiplicity id="101" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <bendpoint x="1552" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="103" name="rentalView"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="106">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="107" name="categorias"/>      
+      <multiplicity id="108" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="110" name="actor"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="112">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="113">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <realization id="114">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="116">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="117" name="store"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="119">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="120">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="121" name="customer"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="124" name="address"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="127" name="actor"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="129">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <generalization id="130">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <generalization id="131">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <realization id="132">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="133">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <association id="134">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="135" name="rental"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="137">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="138">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="139" name="view"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="141">    
+    <bendpoint x="1328" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="142" name="actorView"/>      
+      <multiplicity id="143" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="144">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <association id="145">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="146" name="ciudades"/>      
+      <multiplicity id="147" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="149" name="staffs"/>      
+      <multiplicity id="150" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="152" name="customeres"/>      
+      <multiplicity id="153" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="154">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="155" name="rentas"/>      
+      <multiplicity id="156" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="157">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="158" name="staff"/>      
+      <multiplicity id="159" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <bendpoint x="1182" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="161" name="storeView"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="163">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="164">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="165" name="rental"/>      
+      <multiplicity id="166" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="167">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="168">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="169">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="170" name="film"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="173" name="actores"/>      
+      <multiplicity id="174" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="175">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="176">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="177">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="178">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="179" name="address"/>      
+      <multiplicity id="180" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="181">    
+    <bendpoint x="1276" y="2416"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="182" name="categoryView"/>      
+      <multiplicity id="183" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="184">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="185">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="186">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="187">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="188" name="stores"/>      
+      <multiplicity id="189" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="190">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="191">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="192">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="193">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="194">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="195">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="196">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="197" name="category"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="199">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="200">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="201">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <association id="202">    
+    <bendpoint x="1531" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="203" name="filmView"/>      
+      <multiplicity id="204" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="205">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="206">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <realization id="207">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="208">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="209" name="country"/>      
+      <multiplicity id="210" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="211">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="212">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="213" name="country"/>      
+      <multiplicity id="214" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="215">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="216">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="217" name="city"/>      
+      <multiplicity id="218" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="219">    
+    <bendpoint x="1016" y="2402"/>    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="220" name="staffView"/>      
+      <multiplicity id="221" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
